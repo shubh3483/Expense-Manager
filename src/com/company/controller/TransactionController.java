@@ -49,6 +49,8 @@ public class TransactionController {
             System.out.println("Your transaction card id is " + transaction.id);
         }else{
             listOfTransactionByDate.put(mm,listByDates);
+            System.out.println("Transaction card added successfully");
+            System.out.println("Your transaction card id is " + transaction.id);
         }
         System.out.println();
     }
